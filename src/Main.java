@@ -12,9 +12,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import javax.lang.model.element.VariableElement;
-//import java.util.Random;
-
 /*
  * Class:				Main
  * Purpose:				Run the code

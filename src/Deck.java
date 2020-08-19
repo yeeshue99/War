@@ -62,8 +62,9 @@ public class Deck {
 	 */
 	public ArrayList<ArrayList<String>> DealCards(int numPlayers) {
 		ArrayList<ArrayList<String>> hands = new ArrayList<ArrayList<String>>();
-		if (numPlayers == 1) {
+		if (numPlayers <= 1) {
 			numPlayers = 2;
+			System.out.println("There has to be at least two players. I assume that's what you meant!");
 		}
 		
 		for (int i = 0; i < numPlayers; i++) {
